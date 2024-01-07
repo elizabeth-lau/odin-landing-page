@@ -109,9 +109,42 @@ h2{
     display:flex; 
     flex-direction: column; 
     justify-content: center;
+    background-color:#ffffff;
 }
 
 .p-second{
     text-align: center;
     font-size: 15px;
+}
+
+.third-section{
+    background-color: #34346a;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 25px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.p-third{
+    text-align: end;
+    font-size: 15px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+#p-div{
+    justify-content: end;
+    display: flex;
+    margin-right: 200px;
+    margin-bottom: 100px;
 }
