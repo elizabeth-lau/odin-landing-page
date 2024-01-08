@@ -8,26 +8,31 @@
 body{
     font-family: 'Roboto Slab', serif;
 }
+
 .first-section{
     background: #1f2937;
 }
 
-#header-logo{
+
+.header-logo{
     font-size: 24px;
     color: #f9faf8;
     padding: 20px;
-
 }
 
 .header-link{
     font-size 18px;
     color: #E5E7EB; 
     margin: 30px;
+    display: flex;
+    padding 0px 100px 0px 0px;
+
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
+    align-items: center;
 } 
 
 ul{
@@ -35,7 +40,6 @@ ul{
     flex-direction: row;
     gap: 20px;
 }
-
 
 .navbar-left,.navbar-right {
     display: flex;
@@ -48,29 +52,38 @@ h1{
     font-size:48px;
     font-weight: bolder;
     color:#f9faf8; 
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2em; 
 }
+
 .white-rabbit-text{
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto: 
     align-items: flex-start;
-    padding-left: 30px;
-
+    padding-left: 10px;
+    gap: 2em;
 }
-.content-right{
+
+.content{ 
+    padding: 7em 0;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
-    width: 50%;
+    gap: 2em;
+}
+
+.content-right{
+    flex-shrink:0;
 }
 
 .content-left,{
     display:flex;
     flex-direction: column;
-    width:50%;
-    justify-content: center; 
-    margin-left:150px;
+    gap: 10px;
 }
+
 
 .img{
     margin-bottom: 100px;
@@ -79,6 +92,8 @@ h1{
 .p-first{
     font-size: 18px;
     color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-first-section{
@@ -102,6 +117,7 @@ h2{
     flex-direction: row;
     margin: 50px;
     justify-content: space-between;
+    flex-shrink: 1;
 }
 
 .box-blue{
@@ -109,6 +125,7 @@ h2{
     height: 250px;
     border: 2px solid #3882F6;
     border-radius: 10px;
+    flex-shrink: 1;
 }
 
 .second-section{
@@ -116,6 +133,7 @@ h2{
     flex-direction: column; 
     justify-content: center;
     background-color:#ffffff;
+    padding: 20px;
 }
 
 .p-second{
@@ -143,7 +161,9 @@ h3{
     text-align: end;
     font-size: 15px;
     color: #1F2937;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 15px;;
+    margin: 15px;
 }
 
 #p-div{
@@ -158,7 +178,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 345px;
     border-radius:10px;
 }
 
@@ -168,7 +188,9 @@ h3{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 h4{
     font-size:20px;
@@ -178,7 +200,7 @@ h4{
 .p-last-text{
     color:#ffffff; 
     font-size: 15px;
-    font-style: arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .last-blue-box{ 
@@ -187,6 +209,8 @@ h4{
     height: 40%;
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
+    display: flex;
 }
 
 
@@ -198,10 +222,18 @@ h4{
     height: 40px;
     color:white;
     background-color: #3882F6;
+    font-weight: bold;
+
 }
 
 .footer-section{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    font-size: 17px;
+
 }
